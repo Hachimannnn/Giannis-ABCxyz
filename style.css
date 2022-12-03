@@ -1,0 +1,250 @@
+/* Navbar */
+.slicknav_menu {
+	display:none;
+}
+.header_menu_left { 
+    float: left; 
+    width: 800px; 
+}
+.header_menu_left ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+.header_menu_left ul li { 
+    float: left; 
+    margin-right: 55px;
+    margin-left: 5px; 
+    position: relative; 
+}
+.header_menu_left ul li a { 
+    color: #222;
+ }
+.header_menu_left ul li ul { 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background: #ccc; 
+    display: none; 
+}
+.header_social_right ul { 
+    list-style-type: none; 
+    margin: 0 10px;
+    padding: 10; 
+}
+.header_social_right ul li { 
+    float: left; 
+    margin-left: 80px; 
+    margin-right: 6px;
+}
+.header_menu_container li a{
+    text-decoration: none;
+    font-size: larger;
+}
+#logout-button {
+  text-decoration: none;
+  margin-left: 100px;
+  position: relative; 
+}
+/* Slide Show */
+.slides {
+  margin-top: 30px;
+}
+/* Body  */
+body {
+  background-color: rgb(246, 244, 244);
+}
+/* Meaning body  */
+.health-meaning h1 {
+  font-family: Charter,Georgia,Times,Serif;
+ 
+  text-align: center; 
+}
+.health-meaning p {
+  font-family: Charter,Georgia,Times,Serif;
+  margin-top: 20px;
+  width: 50%;
+  color: rgb(94, 94, 94);
+  font-style: italic;
+  margin-left: 300px;
+}
+/* Health body  */
+.benefit-health h1 {
+  text-align: center;
+  font-family: Charter,Georgia,Times,Serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.benefit-health ul li {
+  font-family:Charter,Georgia,Times,Serif;
+  margin-top: 20px;
+  width: 50%;
+  color: rgb(94, 94, 94);
+  font-style: italic;
+  margin-left: 300px;
+}
+/* How to  */
+.how-to h1 {
+  font-family: Charter,Georgia,Times,Serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.how-to p {
+  font-family:Charter,Georgia,Times,Serif;
+  margin-top: 20px;
+  width: 50%;
+  color: rgb(94, 94, 94);
+  font-style: italic;
+  margin-left: 300px;
+}
+.how-to ul li {
+  font-family:Charter,Georgia,Times,Serif;
+  margin-top: 20px;
+  width: 50%;
+  color: rgb(94, 94, 94);
+  font-style: italic;
+  margin-left: 300px;
+}
+/* Food recipe  */
+.examples h1 {
+  font-family: Charter,Georgia,Times,Serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.gird-pictures {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.photo {
+  max-width: 300px;
+  padding: 0px 8px 50px 8px;
+  text-align: center;
+}
+.photo img {
+  width: 100%;
+}
+.photo h3 {
+  font-family: Charter,Georgia,Times,Serif;
+  width: 100%;
+  padding: 8px 0px 16px 0px;
+}
+.photo p {
+  font-family: Charter,Georgia,Times,Serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.examples a {
+  color:  rgb(126, 70, 126)
+}
+.examples1 {
+ display: none;
+}
+.examples h1 {
+  font-family: Charter,Georgia,Times,Serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.gird-pictures1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.photos {
+  max-width: 300px;
+  padding: 0px 8px 50px 8px;
+  text-align: center;
+}
+.photos img {
+  width: 100%;
+}
+.photos h3 {
+  font-family: Charter,Georgia,Times,Serif;
+  width: 100%;
+  padding: 8px 0px 16px 0px;
+}
+.photos p {
+  font-family: Charter,Georgia,Times,Serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.examples1 a {
+  color:  rgb(126, 70, 126)
+}
+/* Button  */
+.button-38 {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  color: #111827;
+  font-family: Charter,Georgia,Times,Serif;
+  font-size: .875rem;
+  font-weight: 100;
+  padding: .75rem 1rem;
+  margin-bottom: 40px;
+  text-decoration: none #D1D5DB solid;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+/* Footer  */
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+.footer-basic li {
+  padding:0 10px;
+}
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.copyright a {
+  text-decoration: none;
+  color: rgb(15, 158, 158);
+} 
