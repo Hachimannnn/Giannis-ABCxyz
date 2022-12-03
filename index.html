@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="GET" action="process-action.html" onsubmit = "return validateForm()">
+        <h1>Đăng ký</h1>
+        <div class="text-box"> 
+            Họ và tên:<br>
+            <input id="username"placeholder="Tên đầy đủ của bạn" type="text" ><br>
+        </div>
+        <div class="text-box"> 
+            Tuổi:<br>
+            <input id="age" placeholder="Tuổi của bạn" type="number"><br>
+        </div>
+        <div class="text-box"> 
+            Số điện thoại:<br>
+            <input id="phone-number" placeholder="Số điện thoại của bạn" type="number" ><br>
+        </div>
+        <div class="text-box">
+            Giới tính:
+            <select id="sex">
+                <option value="1">Nam</option>
+                <option value="2">Nữ</option>
+            </select>                
+        </div>
+        <div class="text-box" id="Button">
+            <button>Đăng ký</button>
+            <p>(*) Đã có tài khoản?</p>
+        </div>
+    </form>
+    <Script src="app.js"></Script>
+</body>
+</html>
